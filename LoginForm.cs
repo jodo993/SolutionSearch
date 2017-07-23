@@ -26,7 +26,7 @@ namespace SolutionSearch
             string password = lmPasswordTextBox.Text;
 
             // Compares UN and PW with built in UN and PW. Log in if match
-            if (username == "teacher" && password == "webber")
+            if (username == "staff" && password == "webber")
             {
                 // Hides the login form after successful attempt
                 this.Hide();

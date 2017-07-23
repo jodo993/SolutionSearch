@@ -33,6 +33,7 @@
             this.mmInventoryButton = new System.Windows.Forms.Button();
             this.mmExitButton = new System.Windows.Forms.Button();
             this.mmEditSolutionButton = new System.Windows.Forms.Button();
+            this.mmLibraryButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // mmFindSolutionButton
@@ -85,11 +86,22 @@
             this.mmEditSolutionButton.UseVisualStyleBackColor = true;
             this.mmEditSolutionButton.Click += new System.EventHandler(this.mmEditSolutionButton_Click);
             // 
+            // mmLibraryButton
+            // 
+            this.mmLibraryButton.Location = new System.Drawing.Point(56, 104);
+            this.mmLibraryButton.Name = "mmLibraryButton";
+            this.mmLibraryButton.Size = new System.Drawing.Size(95, 23);
+            this.mmLibraryButton.TabIndex = 5;
+            this.mmLibraryButton.Text = "Library";
+            this.mmLibraryButton.UseVisualStyleBackColor = true;
+            this.mmLibraryButton.Click += new System.EventHandler(this.mmLibraryButton_Click);
+            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(215, 322);
+            this.Controls.Add(this.mmLibraryButton);
             this.Controls.Add(this.mmEditSolutionButton);
             this.Controls.Add(this.mmExitButton);
             this.Controls.Add(this.mmInventoryButton);
@@ -108,5 +120,6 @@
         private System.Windows.Forms.Button mmInventoryButton;
         private System.Windows.Forms.Button mmExitButton;
         private System.Windows.Forms.Button mmEditSolutionButton;
+        private System.Windows.Forms.Button mmLibraryButton;
     }
 }
